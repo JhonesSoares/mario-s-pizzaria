@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --cor0: #d7c599;
+    --cor1: #dd7b05;
+    --cor2: #750908;
+    --cor3: #3b0100;
+    --cor4: #0e0200;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-image: url(../images/image01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;    
+}
+
+header {
+    background-color: var(--cor3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+header > nav {
+    display: flex;
+    align-items: center;
+    
+}
+header p {
+    font-family: 'Lato';
+    color: var(--cor0);
+    font-size: 30px;
+}
+header > nav > ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+header > nav > ul  a {
+    text-decoration: none;
+    color: var(--cor0);
+    margin: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;   
+}
+header > nav > ul a:hover{
+    border: 2px solid var(--cor1);
+    color: var(--cor1);    
+}
+
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;       
+}
+section div {
+    align-items: center;
+    padding: 100px;
+    text-align: center;   
+}
+section h1 {
+    font-family: 'Lato';
+    color: var(--cor0);
+    font-size: 100px;
+    padding: 100px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.568);  
+}
+section p{
+    color: var(--cor0);
+    font-size: 25px;
+    padding: 25px;
+}
+section button {
+    font-size: 25px;
+    margin: 150px;
+    padding: 10px 30px;
+    background: var(--cor2);
+    color: var(--cor0);
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+}
+section button:hover {
+    cursor: pointer;
+    background: var(--cor1);
+    color: var(--cor4);
+    transform: scale(1.1);
+}
+
+
+
+main div {
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    max-width: 1000px;
+    margin:  auto;
+    padding: 30px 0px;
+}
+body main#main01 {
+    background-color: var(--cor0);
+}
+body main#main02 {
+    background-color: var(--cor0);
+}
+body main#main03 {
+    background-color: var(--cor3);
+}
+body main#main04 {
+    background-color: var(--cor0);
+}
+body main#main05 {
+    background-color: var(--cor3);
+}
+body main#main06 {
+    background-color: var(--cor1);
+}
+main h2 {
+    font-family: 'Lato';
+    font-size: 50px;
+}
+main#main06 h2 {
+    font-size: 40px;
+}
+main p {
+    padding: 25px;
+    font-size: 20px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.123);
+}
+main#main02 p{
+    color: var(--cor4);
+    text-align: right;
+    line-height: 2em;
+}
+main#main03 p {
+    color: var(--cor0);
+    line-height: 1.8em;
+}
+main#main04 p{
+    color: var(--cor4);
+    text-align: right;
+    line-height: 2em;
+}
+main#main05 p {
+    color: var(--cor0);
+    line-height: 1.8em;
+}
+main#main02 img {
+    box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+}
+main#main03 img {
+    box-shadow: -7px 7px 9px rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+}
+main#main04 img {
+    box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.274);
+    border-radius: 5px;
+}
+main#main05 img {
+    box-shadow: -7px 7px 9px rgba(0, 0, 0, 0.301);
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: var(--cor4);
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    font-style: italic;
+    text-align: center;
+    color: var(--cor0);
+}

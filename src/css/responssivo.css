@@ -1,0 +1,195 @@
+@media(max-width: 1400px){
+    body#home section div {
+        padding: 25px;
+
+    }
+    body#home section h1 {
+        font-size: 80px;
+    }
+}
+@media(max-width: 800px){
+    body#home header {
+        flex-wrap: wrap;
+    }
+    body#home header p {
+        display: none;
+    }
+    body#home section h1{
+        font-size: 70px;
+    }
+    body#home main div {
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+    }
+    body#home main p {
+        text-align: center;
+        max-width: 100%;
+        font-size: 15px;
+    }
+    body#home main img {
+        max-width: 100%;
+    }
+}
+@media(max-width: 570px){
+    body#home header {
+        height: 50px;
+        justify-content: center;
+    }
+    body#home header img {
+        display: none;
+    }
+    body#home header p {
+        font-size: 30px;
+    }
+    body#home section div {
+        padding: 20px;
+        max-width: 85%;
+    }
+    body#home section h1 {
+        font-size: 45px;
+        padding: 100px 0;
+    }
+    body#home section p {
+        font-size: 20px;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    body#home section a {
+        display: block;  
+    }
+    body#home section button {
+        margin: auto;
+        margin-top: 60px;
+    }
+    
+}
+@media(max-width: 470px){
+    body#home header > nav > ul a {
+        margin: 3px;
+        padding: 5px 10px;
+        font-size: 15px;
+    }    
+}
+
+/* RESPONSSIVIDADE PAGINA CARDAPIO */
+
+@media (max-width:1000px) {
+    main > .pizza-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:840px) {
+    body {
+        flex-direction: column;
+    }
+    main > .pizza-area {
+        display:block;
+    }
+    body > div > .pizza-item {
+        max-width:100%;
+    }
+    
+    
+    body > aside {
+        width:auto;
+        position:fixed;
+        left:100vw;
+        right:0;
+        top:0;
+        bottom:0;
+        transition: all ease .2s;
+    }
+    aside.show {
+        width:auto;
+    }
+    aside > .cart--area {
+        width:100vw;
+    }
+
+    aside > .menu-closer {
+        display:block;
+    }
+
+
+    /* JANELA MODAL*/
+    body .pizzaWindowArea {
+        justify-content:flex-start;
+        align-items: flex-start;
+    }
+
+     .pizzaWindowBody {
+        width:100vw;
+        display:block;
+        padding:20px;
+        border-radius:0;
+        box-shadow:none;
+        margin:0;
+    }
+
+    .pizzaBig img {
+        width: 75%;
+        height: auto;
+    }
+
+    .pizzaInfo h1 {
+        margin-top:20px;
+    }
+
+    .pizzaInfo--qtarea {
+        height:60px;
+    }
+    
+    .pizzaInfo--qtarea button {
+        font-size:25px;
+        padding:0px 25px;
+    }
+
+    .pizzaInfo--qt {
+        line-height: 60px;
+        font-size:20px;
+    }
+
+    .pizzaInfo--addButton {
+        font-size:20px;
+        display:block;
+        text-align:center;
+        margin:30px auto;
+    }
+
+    .pizzaInfo--cancelButton {
+        display:none;
+    }
+
+    .pizzaInfo--cancelMobileButton {
+        display:block;
+    }
+
+}
+
+@media (max-width:450px) {
+    header.menu {
+        justify-content: center;
+    }
+    header.menu a{
+        margin: 3px;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+    .menu-openner {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:380px) {
+    
+    header h1 {
+        font-size: 1rem;
+    }
+    .menu-openner {
+        font-size: 1.5rem;
+    }
+}
+
