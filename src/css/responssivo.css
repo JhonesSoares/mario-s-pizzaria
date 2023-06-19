@@ -6,6 +6,11 @@
         font-size: 80px;
     }
 }
+
+
+
+
+
 @media(max-width: 800px){
     body#home header nav#menu_logo {
         display: none;
@@ -45,6 +50,10 @@
         max-width: 100%;
     }
 }
+
+
+
+
 @media(max-width: 570px){
     body#home header {
         justify-content: space-between;
@@ -82,6 +91,10 @@
     }
     
 }
+
+
+
+
 @media(max-width: 470px){
     body#home header > nav > ul a {
         margin: 3px;
@@ -89,6 +102,10 @@
         font-size: 15px;
     }    
 }
+
+
+
+
 
 /* RESPONSSIVIDADE PAGINA CARDAPIO */
 
