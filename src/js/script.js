@@ -1,6 +1,5 @@
 
 
-
 let modalKey = 0
 let quantPizzas = 1
 let cart = [] 

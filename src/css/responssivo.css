@@ -1,21 +1,35 @@
 @media(max-width: 1400px){
     body#home section div {
         padding: 25px;
-
     }
     body#home section h1 {
         font-size: 80px;
     }
 }
 @media(max-width: 800px){
-    body#home header {
-        flex-wrap: wrap;
-    }
-    body#home header p {
+    body#home header nav#menu_logo {
         display: none;
+    }
+    body#home header nav#menu {
+        text-align: center;
+        display: none;
+    }
+    header > nav > ul  a {
+        margin: 5px;
+        padding: 5px 10px;
+    }
+    header  span.material-symbols-outlined{
+        font-size: 50px;
+        display: block;
+        color: #d7c599;
+        margin: 0 20px;
+        cursor: pointer;
     }
     body#home section h1{
         font-size: 70px;
+    }
+    body#home section div p {
+        font-size: 17px;
     }
     body#home main div {
         flex-direction: column;
@@ -33,14 +47,17 @@
 }
 @media(max-width: 570px){
     body#home header {
-        height: 50px;
-        justify-content: center;
+        justify-content: space-between;
     }
     body#home header img {
-        display: none;
+        max-width: 100%;
     }
     body#home header p {
-        font-size: 30px;
+        font-size: 20px;
+    }
+    body#home header nav > ul > li > a {
+        font-size: 13px;
+        margin: 0;
     }
     
     body#home section div {
